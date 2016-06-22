@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTests" thread-count="20" parallel="methods">
+
+    <listeners>
+        <listener class-name="com.epam.calculator.listener.MethodListener"/>
+        <listener class-name="com.epam.calculator.listener.TestListener"/>
+    </listeners>
+
+    <test name="TestNG Smoke Group">
+
+        <parameter name="numberCos" value="1"/>
+        <parameter name="resultCos" value="0.5403023058681398"/>
+        <parameter name="numberSin" value="1"/>
+        <parameter name="resultSin" value="0.8414709848078965"/>
+        <parameter name="numberPow1" value="5"/>
+        <parameter name="numberPow2" value="2"/>
+        <parameter name="resultPow" value="25"/>
+        <parameter name="numberSqrt" value="9"/>
+        <parameter name="resultSqrt" value="3"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.epam.calculator.testCalculator.base"/>
+            <package name="com.epam.calculator.testCalculator.baseOperations"/>
+            <package name="com.epam.calculator.testCalculator.engineerOperations"/>
+            <package name="com.epam.calculator.testCalculator.sign"/>
+        </packages>
+
+    </test>
+
+</suite>

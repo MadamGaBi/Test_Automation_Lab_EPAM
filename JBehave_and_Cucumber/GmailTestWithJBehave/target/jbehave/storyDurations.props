@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Jun 17 09:57:22 EEST 2016
+threads=2
+total=27000
+threadAverage=13500
+email/useGmail.story=27000

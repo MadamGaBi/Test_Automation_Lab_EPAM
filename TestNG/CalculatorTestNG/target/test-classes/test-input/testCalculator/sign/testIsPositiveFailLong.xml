@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<test name = "testIsPositiveFailLong">
+    <data>
+        <number>-14</number>
+    </data>
+    <data>
+        <number>0</number>
+    </data>
+
+    <!--The octal numeral system check-->
+    <data>
+        <number>-001</number>
+    </data>
+    <data>
+        <number>0000</number>
+    </data>
+
+    <!--bounds check-->
+    <!--Long.MIN_VALUE = -9223372036854775808, Long.MAX_VALUE = 9223372036854775807-->
+    <data>
+        <number>-9223372036854775808</number>
+    </data>
+</test>

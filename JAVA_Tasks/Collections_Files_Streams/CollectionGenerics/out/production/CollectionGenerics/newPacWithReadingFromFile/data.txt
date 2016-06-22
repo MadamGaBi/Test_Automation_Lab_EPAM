@@ -1,0 +1,5 @@
+Landon Donovan, 150, A
+Hulk Hogan , 100, M
+Duke Nukem, 50, M
+Irina Alegrova, 200, F
+Jack London , -40, M

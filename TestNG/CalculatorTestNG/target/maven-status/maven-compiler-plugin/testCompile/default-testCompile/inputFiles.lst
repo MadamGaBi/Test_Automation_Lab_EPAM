@@ -1,0 +1,17 @@
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\dataProvider\DataProviderClass.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\listener\MethodListener.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\sign\TestIsNegative.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\baseOperations\TestSum.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestSin.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestCos.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\base\TestBase.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestCtg.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\dataProvider\PathConstant.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\baseOperations\TestSub.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\baseOperations\TestMult.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestSqrt.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\baseOperations\TestDiv.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestPow.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\sign\TestIsPositive.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\listener\TestListener.java
+D:\Galyna\PreProdLab\TestNG\CalculatorTestNG\src\test\java\com\epam\calculator\testCalculator\engineerOperations\TestTg.java

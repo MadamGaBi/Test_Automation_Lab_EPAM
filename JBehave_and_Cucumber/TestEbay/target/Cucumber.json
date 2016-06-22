@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Running a Full Text Quick Search _2",
+        "description": "",
+        "id": "demo-example;running-a-full-text-quick-search--2;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8863123939,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I set search request \"iPhone 4S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone 4S",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.iSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2401144569,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I perform search",
+            "match": {
+              "location": "BaseStepDef.iPerformSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99855069,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the tern query \"iPhone 4S\" should be the first in the Search Result grid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone 4S",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.theTernQueryShouldBeTheFirstInTheSearchResultGrid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Running a Full Text Quick Search _2",
+        "description": "",
+        "id": "demo-example;running-a-full-text-quick-search--2;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5959791289,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I set search request \"Samsung Galaxy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung Galaxy",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseStepDef.iSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4095461798,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I perform search",
+            "match": {
+              "location": "BaseStepDef.iPerformSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126292097,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the tern query \"Samsung Galaxy\" should be the first in the Search Result grid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samsung Galaxy",
+                  "offset": 16
+                }
+              ],
+              "location": "BaseStepDef.theTernQueryShouldBeTheFirstInTheSearchResultGrid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo example",
+    "description": "",
+    "id": "demo-example",
+    "keyword": "Feature",
+    "uri": "search/exampleSearch.feature"
+  }
+]

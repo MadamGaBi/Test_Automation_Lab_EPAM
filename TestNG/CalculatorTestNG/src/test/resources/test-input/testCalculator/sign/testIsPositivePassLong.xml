@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<test name = "testIsPositivePassLong">
+    <data>
+        <number>15</number>
+    </data>
+
+    <!--The octal numeral system check-->
+    <data>
+        <number>01</number>
+    </data>
+
+    <!--bounds check-->
+    <!--Long.MIN_VALUE = -9223372036854775808, Long.MAX_VALUE = 9223372036854775807-->
+    <data>
+        <number>9223372036854775807</number>
+    </data>
+</test>

@@ -1,0 +1,89 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building on master in workspace D:\Galyna\PreProdLab\Jenkins\MinimumProject
+[MinimumProject] $ cmd.exe /C '""D:\Galyna\Courses_Books\Testing Epam\environment\apache-maven-3.3.9\bin\mvn.cmd"' clean compile package && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Project 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Project ---
+[INFO] Deleting D:\Galyna\PreProdLab\Jenkins\MinimumProject\target
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Project ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Project ---
+[INFO] Changes detected - recompiling the module!
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Galyna\PreProdLab\Jenkins\MinimumProject\target\classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Project ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Project ---
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Galyna\PreProdLab\Jenkins\MinimumProject\src\test\resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Project ---
+[INFO] Changes detected - recompiling the module!
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Galyna\PreProdLab\Jenkins\MinimumProject\target\test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Project ---
+[INFO] Surefire report directory: D:\Galyna\PreProdLab\Jenkins\MinimumProject\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestClass
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@182c5f3
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.721 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Project ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (5 KB at 2.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (3 KB at 16.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (2 KB at 13.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+1018/1018 B                 Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1018 B at 6.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+3/37 KB       5/37 KB   8/37 KB   11/37 KB   13/37 KB   16/37 KB   19/37 KB   21/37 KB   24/37 KB   27/37 KB   29/37 KB   32/37 KB   35/37 KB   37/37 KB              Downloaded: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (37 KB at 168.1 KB/sec)
+3/181 KB   5/181 KB   8/181 KB   11/181 KB   13/181 KB   13/181 KB   3/57 KB   13/181 KB   5/57 KB   13/181 KB   8/57 KB   13/181 KB   11/57 KB   16/181 KB   11/57 KB   19/181 KB   11/57 KB   21/181 KB   11/57 KB   24/181 KB   11/57 KB   27/181 KB   11/57 KB   29/181 KB   11/57 KB   32/181 KB   11/57 KB   32/181 KB   13/57 KB   32/181 KB   16/57 KB   32/181 KB   19/57 KB   32/181 KB   21/57 KB   32/181 KB   24/57 KB   32/181 KB   27/57 KB   32/181 KB   29/57 KB   32/181 KB   32/57 KB   32/181 KB   32/57 KB   3/22 KB   32/181 KB   32/57 KB   5/22 KB   32/181 KB   32/57 KB   3/60 KB   5/22 KB   32/181 KB   32/57 KB   3/60 KB   8/22 KB   32/181 KB   32/57 KB   5/60 KB   8/22 KB   32/181 KB   32/57 KB   5/60 KB   11/22 KB   32/181 KB   32/57 KB   8/60 KB   11/22 KB   32/181 KB   32/57 KB   11/60 KB   11/22 KB   36/181 KB   32/57 KB   11/60 KB   11/22 KB   40/181 KB   32/57 KB   11/60 KB   11/22 KB   44/181 KB   32/57 KB   11/60 KB   11/22 KB   48/181 KB   32/57 KB   11/60 KB   11/22 KB   52/181 KB   32/57 KB   11/60 KB   11/22 KB   56/181 KB   32/57 KB   11/60 KB   11/22 KB   60/181 KB   32/57 KB   11/60 KB   11/22 KB   64/181 KB   32/57 KB   11/60 KB   11/22 KB   68/181 KB   32/57 KB   11/60 KB   11/22 KB   72/181 KB   32/57 KB   11/60 KB   11/22 KB   76/181 KB   32/57 KB   11/60 KB   11/22 KB   80/181 KB   32/57 KB   11/60 KB   11/22 KB   80/181 KB   32/57 KB   11/60 KB   13/22 KB   80/181 KB   32/57 KB   11/60 KB   16/22 KB   84/181 KB   32/57 KB   11/60 KB   16/22 KB   88/181 KB   32/57 KB   11/60 KB   16/22 KB   92/181 KB   32/57 KB   11/60 KB   16/22 KB   96/181 KB   32/57 KB   11/60 KB   16/22 KB   96/181 KB   32/57 KB   11/60 KB   19/22 KB   96/181 KB   32/57 KB   13/60 KB   19/22 KB   96/181 KB   32/57 KB   13/60 KB   21/22 KB   96/181 KB   32/57 KB   13/60 KB   22/22 KB   96/181 KB   32/57 KB   16/60 KB   22/22 KB   96/181 KB   32/57 KB   19/60 KB   22/22 KB   96/181 KB   32/57 KB   21/60 KB   22/22 KB   96/181 KB   32/57 KB   24/60 KB   22/22 KB   96/181 KB   32/57 KB   27/60 KB   22/22 KB   96/181 KB   32/57 KB   29/60 KB   22/22 KB   96/181 KB   32/57 KB   32/60 KB   22/22 KB   96/181 KB   36/57 KB   32/60 KB   22/22 KB   96/181 KB   40/57 KB   32/60 KB   22/22 KB   96/181 KB   44/57 KB   32/60 KB   22/22 KB   96/181 KB   48/57 KB   32/60 KB   22/22 KB   96/181 KB   52/57 KB   32/60 KB   22/22 KB   96/181 KB   56/57 KB   32/60 KB   22/22 KB   96/181 KB   57/57 KB   32/60 KB   22/22 KB   100/181 KB   57/57 KB   32/60 KB   22/22 KB   104/181 KB   57/57 KB   32/60 KB   22/22 KB   108/181 KB   57/57 KB   32/60 KB   22/22 KB   112/181 KB   57/57 KB   32/60 KB   22/22 KB   116/181 KB   57/57 KB   32/60 KB   22/22 KB   120/181 KB   57/57 KB   32/60 KB   22/22 KB   124/181 KB   57/57 KB   32/60 KB   22/22 KB   128/181 KB   57/57 KB   32/60 KB   22/22 KB   132/181 KB   57/57 KB   32/60 KB   22/22 KB   136/181 KB   57/57 KB   32/60 KB   22/22 KB   140/181 KB   57/57 KB   32/60 KB   22/22 KB   144/181 KB   57/57 KB   32/60 KB   22/22 KB                                                 Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 KB at 45.4 KB/sec)
+144/181 KB   57/57 KB   36/60 KB                                                 Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (57 KB at 114.5 KB/sec)
+144/181 KB   40/60 KB              144/181 KB   44/60 KB   144/181 KB   48/60 KB   148/181 KB   48/60 KB   152/181 KB   48/60 KB   156/181 KB   48/60 KB   160/181 KB   48/60 KB   160/181 KB   52/60 KB   160/181 KB   56/60 KB   160/181 KB   60/60 KB   164/181 KB   60/60 KB   168/181 KB   60/60 KB   172/181 KB   60/60 KB   176/181 KB   60/60 KB   180/181 KB   60/60 KB   181/181 KB   60/60 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 KB at 105.3 KB/sec)
+                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (181 KB at 307.9 KB/sec)
+[INFO] Building jar: D:\Galyna\PreProdLab\Jenkins\MinimumProject\target\Project-1.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.675 s
+[INFO] Finished at: 2016-05-18T19:44:12+03:00
+[INFO] Final Memory: 14M/34M
+[INFO] ------------------------------------------------------------------------
+[MinimumProject] $ cmd /c call C:\Users\BIL\AppData\Local\Temp\hudson4512476460754983141.bat
+
+D:\Galyna\PreProdLab\Jenkins\MinimumProject>cd target   && java -jar Project-1.0.jar 
+Source array is [1, 6, 9, 2, 2, 12, 3, 0, -1, 999]
+First minimum is -1
+Second minimum is 0
+Third minimum is 1
+
+D:\Galyna\PreProdLab\Jenkins\MinimumProject\target>exit 0 
+Finished: SUCCESS

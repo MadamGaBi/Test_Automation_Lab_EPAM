@@ -1,0 +1,1001 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 572, Failures: 67, Errors: 0, Skipped: 0, Time elapsed: 4.159 sec <<< FAILURE!
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.004 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1f70c54] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1f70c54] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.01 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@50a6f6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1f70c54] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1f70c54] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@2a67b4] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.01 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1330ac6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.006 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.011 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.004 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@11c311e] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@de6747] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1330ac6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1330ac6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@1330ac6] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testCosPassDouble(com.epam.calculator.testCalculator.engineerOperations.TestCos)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: error in cos() expected [0.5403023058681398] but found [0.8414709848078965]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at com.epam.calculator.testCalculator.engineerOperations.TestCos.testCosPassDouble(TestCos.java:23)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSubExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSub)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSub.testSubExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSub@1c6f96d] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@369e14] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.011 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testSumExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestSum)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestSum.testSumExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestSum@1af06fc] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@369e14] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@369e14] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+testMultExceptionIsThrown(com.epam.calculator.testCalculator.baseOperations.TestMult)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.testng.TestException: 
+Method TestMult.testMultExceptionIsThrown(long, long)[pri:0, instance:com.epam.calculator.testCalculator.baseOperations.TestMult@369e14] should have thrown an exception of class java.lang.Exception
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1512)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:754)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

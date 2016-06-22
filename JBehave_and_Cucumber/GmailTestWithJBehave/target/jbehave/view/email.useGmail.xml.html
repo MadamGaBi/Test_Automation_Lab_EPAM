@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>email.useGmail</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="email/useGmail.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">login in gmail account</asA>
+  <iWantTo keyword="So that">I can send letter</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Login with an empty login field">
+<step outcome="successful">Given I am on LogInPage</step>
+<step outcome="successful">When I leave login field empty</step>
+<step outcome="successful">And I click button &quot;Next&quot;</step>
+<step outcome="successful">Then Error message &quot;Please enter your email&quot; is shown</step>
+</scenario>
+<scenario keyword="Scenario:" title="Login with an invalid data">
+<step outcome="successful">Given I am on LogInPage</step>
+<step outcome="successful">When I enter an invalid login</step>
+<step outcome="successful">And I click button &quot;Next&quot;</step>
+<step outcome="successful">Then Error message &quot;Please enter a valid email address&quot; is shown</step>
+</scenario>
+<scenario keyword="Scenario:" title="Login with a valid data">
+<step outcome="successful">Given I am on LogInPage</step>
+<step outcome="successful">When I enter a valid login</step>
+<step outcome="successful">And I click button &quot;Next&quot;</step>
+<step outcome="successful">And I enter a valid password</step>
+<step outcome="successful">And I uncheck checkbox &quot;Stay signed in&quot;</step>
+<step outcome="successful">And I click button &quot;Sign in&quot;</step>
+<step outcome="failed" keyword="FAILED">Then InBoxPage of my account is opened<failure>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//a[contains(@title, &apos;&#1040;&#1082;&#1082;&#1072;&#1091;&#1085;&#1090; Google&apos;)]&quot;}
+  (Session info: chrome=51.0.2704.84)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.49.1&apos;, revision: &apos;808c23b0963853d375cbe54b90bbd052e2528a54&apos;, time: &apos;2016-01-21 09:37:52&apos;
+System info: host: &apos;BIL-PC&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\BIL\AppData\Local\Temp\scoped_dir5960_28711}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.84, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 710df2b5d810b1bcff15e968b0dd3dbc
+*** Element info: {Using=xpath, value=.//a[contains(@title, &apos;&#1040;&#1082;&#1082;&#1072;&#1091;&#1085;&#1090; Google&apos;)]}</failure></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

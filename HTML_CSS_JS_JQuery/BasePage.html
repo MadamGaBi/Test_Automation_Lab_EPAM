@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page Login</title>
+    <link rel="stylesheet" type="text/css" href="StyleOfPage.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+	<div class="header">
+		<img class="img" src="folder.jpg"> Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;)) <img class="img" src="folder.jpg">
+	</div>
+	<div class="navigation">
+	    <p>Необходимо выполнить вход в систему.</p>
+	</div>
+	<div class="content">
+		<div class="info"><br></div>
+		<div class="center">
+
+	    	<form class="form" action="/" method="POST" accept-charset="UTF-8">
+
+		    	<label for="loginField">Логин:
+                    <input type="text" name="login" id="loginField">
+                </label>
+                <label id="msgLog">
+                    <!--text: Осталось ввести... -->
+                </label><br>
+                <div class="br"></div>
+
+		    	<label for="passwordField">Пароль:
+                    <input type="password" name="password" id="passwordField">
+                </label>
+                <label id="msgPass">
+                    <!--text: Осталось ввести... -->
+                </label><br>
+                <div class="br"></div>
+
+		    	<label for="checkbox">Запомнить:
+                    <input type="checkbox" id="checkbox">
+                </label><br>
+
+		    	<span class="button">
+                    <input type="submit" value="Войти" name="button">
+                </span>
+	   		</form>
+
+		</div>
+		<div class="stat">
+			<b>Статистика:</b><br>
+			Пользователей: 123<br>
+			Файлов: 1234<br>
+			Объём: 2345 Мb<br>
+			Объём / польз.: 45 Mb
+		</div>
+	</div>
+    <div class="footer">
+		<p>© 2014, EPAM RD PHP Training</p>
+    </div>
+</body>
+</html>

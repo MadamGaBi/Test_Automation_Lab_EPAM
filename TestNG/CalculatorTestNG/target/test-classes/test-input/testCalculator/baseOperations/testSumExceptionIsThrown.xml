@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<test name = "testSumExceptionIsThrown">
+    <!--bounds check-->
+    <!--Long.MIN_VALUE = -9223372036854775808, Long.MAX_VALUE = 9223372036854775807-->
+    <data>
+        <number1>-9223372036854775808</number1>
+        <number2>-1</number2>
+    </data>
+    <data>
+        <number1>-1</number1>
+        <number2>-9223372036854775808</number2>
+    </data>
+    <data>
+        <number1>9223372036854775807</number1>
+        <number2>1</number2>
+    </data>
+    <data>
+        <number1>1</number1>
+        <number2>9223372036854775807</number2>
+    </data>
+    <data>
+        <number1>9223372036854775807</number1>
+        <number2>9223372036854775807</number2>
+    </data>
+    <data>
+        <number1>-9223372036854775808</number1>
+        <number2>-9223372036854775808</number2>
+    </data>
+    <data>
+        <number1>4611686018427387903</number1>
+        <number2>4611686018427387905</number2>
+    </data>
+    <data>
+        <number1>4611686018427387905</number1>
+        <number2>4611686018427387903</number2>
+    </data>
+    <data>
+        <number1>-4611686018427387904</number1>
+        <number2>-4611686018427387905</number2>
+    </data>
+    <data>
+        <number1>-4611686018427387905</number1>
+        <number2>-4611686018427387904</number2>
+    </data>
+</test>

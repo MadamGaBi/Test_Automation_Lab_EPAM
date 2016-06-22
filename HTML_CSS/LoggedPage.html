@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styleOfLoggedPage.css">
+</head>
+<body>
+
+<div class="mainText">
+    <img src="folder.jpg"> Файловое хранилище v 0.01 (потеряй свои файлы красиво! ;)) <img src="folder.jpg">
+</div>
+<div class="textLine">
+    <p class="text">Вы вошли в систему как <b>Иванов Иван Иванович.<a href="/"> Выйти.</a></b></p>
+</div>
+
+<div class="mainTable">
+    <div class="info">
+        <ul>
+            <li><b>Можно загружать:</b></li>
+            <li>ZIP (до 20 Mb);</li>
+            <li>DOCX (до 400 Mb);</li>
+            <li>PPTX (до 50 Mb);</li>
+            <br>
+            <li><b>Использовано:</b></li>
+            <li>27.34 Mb из 100.00 Mb</li>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="table">
+            <table>
+                <tr>
+                    <td class="tdFile">Файл</td>
+                    <td class="tdSize">Размер(Kb)</td>
+                    <td class="tdDate">Дата и время</td>
+                    <td class="tdDel">Удалить</td>
+                </tr>
+                <tr>
+                    <td class="tdLeft"><a href="/">Это архив с русским именем.zip</a></td>
+                    <td>132.22</td>
+                    <td>2014.02.28 18:01:15</td>
+                    <td class="red">Удалить</td>
+                </tr>
+                <tr>
+                    <td class="tdLeft"><a href="/">_www_app.zip</a></td>
+                    <td>132.45</td>
+                    <td>2014.02.28 18:24:54</td>
+                    <td class="red">Удалить</td>
+                </tr>
+            </table>
+        </div>
+        <form class="form" action=" " method="get" accept-charset="UTF-8" enctype="multipart/form-data">
+            Загрузить новый файл:<br>
+            <input type="button" value="Выбрать"> <input type="text"><br>
+            <input type="submit" value="Загрузить">
+        </form>
+        <form class="form" action=" " method="get" accept-charset="UTF-8">
+            Запросить с удаленного сервера: <input type="text" id="zapr"><br>
+            Поместить на хранилище: <input type="checkbox"><br>
+            <input type="submit" value="Запросить">
+        </form>
+    </div>
+    <div class="stat">
+        <b>Статистика:</b><br>
+        Пользователей: 123<br>
+        Файлов:1234<br>
+        Объём: 2345 Мb<br>
+        Объём / польз.: 45Mb
+    </div>
+</div>
+<div class="footer">
+    <p>© 2014, EPAM RD PHP Training</p>
+</div>
+</body>
+</html>

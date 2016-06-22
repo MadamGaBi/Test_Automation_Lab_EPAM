@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<test name = "testDivExceptionIsThrown">
+    <data>
+        <number1>6</number1>
+        <number2>0</number2>
+    </data>
+    <data>
+        <number1>-8</number1>
+        <number2>0</number2>
+    </data>
+    <!--The octal numeral system check-->
+    <data>
+        <number1>0123</number1>
+        <number2>0</number2>
+    </data>
+    <data>
+        <number1>-0123</number1>
+        <number2>0</number2>
+    </data>
+</test>

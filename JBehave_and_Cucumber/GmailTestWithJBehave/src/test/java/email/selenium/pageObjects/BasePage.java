@@ -1,0 +1,28 @@
+package email.selenium.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+/**
+ * Created by GaBi on 16.06.2016.
+ *
+ */
+public class BasePage {
+
+    public static WebDriver driver;
+
+    public static void init(){
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+    }
+
+    public static void close(){
+        try {
+            driver.quit();
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            driver = null;
+        }
+    }
+}

@@ -1,0 +1,1813 @@
+<html>
+<head>
+<title>TestNG:  TestNG Smoke Group</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG Smoke Group</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>73/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 01 01:34:03 EEST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (37 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.engineerOperations.TestCos.testCosPassDouble()'><b>testCosPassDouble</b><br>Test class: com.epam.calculator.testCalculator.engineerOperations.TestCos<br>Parameters: 1.0, 0.5403023058681398<br/>
+<a href="#Output-26065120" onClick='toggleBox("Output-26065120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26065120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26065120">
+</br>Completed executing method: TestCos.testCosPassDouble Elapsed time: -1<br/>
+</br>Completed executing method: TestCos.testCosPassDouble Elapsed time: -1<br/>
+</br>Completed executing method: TestCos.testCosPassDouble Elapsed time: -1<br/>
+</br>Completed executing method: TestCos.testCosPassDouble Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestCos][Method: testCosPassDouble][#Parameters: 2] - State [2] - [Time: 1 ms]Thread ID: 284
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestCos][Method: testCosPassDouble][#Parameters: 2] - State [2] - [Time: 1 ms]Thread ID: 284
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestCos][Method: testCosPassDouble][#Parameters: 2] - State [2] - [Time: 1 ms]Thread ID: 284
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestCos][Method: testCosPassDouble][#Parameters: 2] - State [2] - [Time: 1 ms]Thread ID: 284
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: error in cos() expected [0.5403023058681398] but found [0.8414709848078965]
+	at com.epam.calculator.testCalculator.engineerOperations.TestCos.testCosPassDouble(TestCos.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26065120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26065120'><pre>java.lang.AssertionError: error in cos() expected [0.5403023058681398] but found [0.8414709848078965]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at com.epam.calculator.testCalculator.engineerOperations.TestCos.testCosPassDouble(TestCos.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.engineerOperations.TestCos@aef76d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 10, 3, 3<br/>
+<a href="#Output-30168777" onClick='toggleBox("Output-30168777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30168777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30168777">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 0, 5, 0<br/>
+<a href="#Output-18750509" onClick='toggleBox("Output-18750509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18750509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18750509">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 303]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 123, -123, -1<br/>
+<a href="#Output-32755880" onClick='toggleBox("Output-32755880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32755880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32755880">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -10, -2, 5<br/>
+<a href="#Output-19466256" onClick='toggleBox("Output-19466256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19466256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19466256">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 295]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 123, -123, -1<br/>
+<a href="#Output-32910329" onClick='toggleBox("Output-32910329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32910329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32910329">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -5<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 297]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 297]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 297]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 5 ms] - [Thread ID: 297]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 6, 2, 3<br/>
+<a href="#Output-32684837" onClick='toggleBox("Output-32684837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32684837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32684837">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 10, 3, 3<br/>
+<a href="#Output-18977558" onClick='toggleBox("Output-18977558", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18977558" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18977558">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -50, 5, -10<br/>
+<a href="#Output-15817970" onClick='toggleBox("Output-15817970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15817970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15817970">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 1, 2, 0<br/>
+<a href="#Output-18256493" onClick='toggleBox("Output-18256493", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18256493" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18256493">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 9223372036854775807, 1, 9223372036854775807<br/>
+<a href="#Output-2299414" onClick='toggleBox("Output-2299414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2299414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2299414">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 303]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -9223372036854775808, 1, -9223372036854775808<br/>
+<a href="#Output-30225987" onClick='toggleBox("Output-30225987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30225987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30225987">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 301]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 1, 2, 0<br/>
+<a href="#Output-3636458" onClick='toggleBox("Output-3636458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3636458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3636458">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 300]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 300]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 300]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 300]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 9223372036854775807, 9223372036854775807, 1<br/>
+<a href="#Output-1311275" onClick='toggleBox("Output-1311275", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1311275" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1311275">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 295]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -10, -2, 5<br/>
+<a href="#Output-28876585" onClick='toggleBox("Output-28876585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28876585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28876585">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 302]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 302]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 302]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 302]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -9223372036854775808, -9223372036854775808, 1<br/>
+<a href="#Output-14874831" onClick='toggleBox("Output-14874831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14874831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14874831">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 299]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: -50, 5, -10<br/>
+<a href="#Output-24675790" onClick='toggleBox("Output-24675790", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24675790" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24675790">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 298]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 298]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 298]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 298]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 0, 9, 0<br/>
+<a href="#Output-25616751" onClick='toggleBox("Output-25616751", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25616751" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25616751">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 296]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 296]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 296]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 296]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestDiv.testDivPassLong()'><b>testDivPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestDiv<br>Parameters: 6, 2, 3<br/>
+<a href="#Output-11143963" onClick='toggleBox("Output-11143963", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11143963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11143963">
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestDiv.testDivPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 294]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 294]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 294]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestDiv][Method: testDivPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 294]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestDiv@16e7531</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 3, 4, 12<br/>
+<a href="#Output-1140985" onClick='toggleBox("Output-1140985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1140985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1140985">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: -2, -7, 14<br/>
+<a href="#Output-8822734" onClick='toggleBox("Output-8822734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8822734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8822734">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 0, 9, 0<br/>
+<a href="#Output-9208636" onClick='toggleBox("Output-9208636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9208636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9208636">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 304]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 18, 0, 0<br/>
+<a href="#Output-924874" onClick='toggleBox("Output-924874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-924874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-924874">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 316]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 316]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 316]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 316]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: -5, 5, -25<br/>
+<a href="#Output-21226957" onClick='toggleBox("Output-21226957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21226957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21226957">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 327]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 327]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 327]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 327]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 3, 4, 12<br/>
+<a href="#Output-11796917" onClick='toggleBox("Output-11796917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11796917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11796917">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 328]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 328]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 328]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 328]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: -2, -7, 14<br/>
+<a href="#Output-7671554" onClick='toggleBox("Output-7671554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7671554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7671554">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 329]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 329]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 329]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 329]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 14, 0, 0<br/>
+<a href="#Output-7886762" onClick='toggleBox("Output-7886762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7886762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7886762">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 331]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 4, -3, -12<br/>
+<a href="#Output-27719560" onClick='toggleBox("Output-27719560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27719560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27719560">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 326]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 326]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 326]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 326]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: -5, 5, -25<br/>
+<a href="#Output-4705533" onClick='toggleBox("Output-4705533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4705533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4705533">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 331]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 331]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 2, -4611686018427387904, -9223372036854775808<br/>
+<a href="#Output-12126470" onClick='toggleBox("Output-12126470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12126470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12126470">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 293]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 4, -3, -12<br/>
+<a href="#Output-3078627" onClick='toggleBox("Output-3078627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3078627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3078627">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 292]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 1, 9223372036854775807, 9223372036854775807<br/>
+<a href="#Output-11731829" onClick='toggleBox("Output-11731829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11731829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11731829">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 304]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 304]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestMult.testMultPassLong()'><b>testMultPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestMult<br>Parameters: 0, 6, 0<br/>
+<a href="#Output-26176031" onClick='toggleBox("Output-26176031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26176031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26176031">
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestMult.testMultPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 330]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 330]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 330]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestMult][Method: testMultPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 330]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestMult@1429932</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.engineerOperations.TestPow.testPowPassDouble()'><b>testPowPassDouble</b><br>Test class: com.epam.calculator.testCalculator.engineerOperations.TestPow<br>Parameters: 5.0, 2.0, 25.0<br/>
+<a href="#Output-30112280" onClick='toggleBox("Output-30112280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30112280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30112280">
+</br>Completed executing method: TestPow.testPowPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestPow.testPowPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestPow.testPowPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestPow.testPowPassDouble Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestPow][Method: testPowPassDouble][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 287]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestPow][Method: testPowPassDouble][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 287]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestPow][Method: testPowPassDouble][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 287]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestPow][Method: testPowPassDouble][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 287]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.engineerOperations.TestPow@17078</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.engineerOperations.TestSin.testSinPassDouble()'><b>testSinPassDouble</b><br>Test class: com.epam.calculator.testCalculator.engineerOperations.TestSin<br>Parameters: 1.0, 0.8414709848078965<br/>
+<a href="#Output-30291433" onClick='toggleBox("Output-30291433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-30291433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-30291433">
+</br>Completed executing method: TestSin.testSinPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSin.testSinPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSin.testSinPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSin.testSinPassDouble Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSin][Method: testSinPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 289]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSin][Method: testSinPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 289]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSin][Method: testSinPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 289]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSin][Method: testSinPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 289]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.engineerOperations.TestSin@1835727</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.engineerOperations.TestSqrt.testSqrtPassDouble()'><b>testSqrtPassDouble</b><br>Test class: com.epam.calculator.testCalculator.engineerOperations.TestSqrt<br>Parameters: 9.0, 3.0<br/>
+<a href="#Output-14707069" onClick='toggleBox("Output-14707069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-14707069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-14707069">
+</br>Completed executing method: TestSqrt.testSqrtPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSqrt.testSqrtPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSqrt.testSqrtPassDouble Elapsed time: 0<br/>
+</br>Completed executing method: TestSqrt.testSqrtPassDouble Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSqrt][Method: testSqrtPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 291]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSqrt][Method: testSqrtPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 291]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSqrt][Method: testSqrtPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 291]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.engineerOperations.TestSqrt][Method: testSqrtPassDouble][#Parameters: 2] - State [1] - [Time: 0 ms] - [Thread ID: 291]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.engineerOperations.TestSqrt@1ec6a9f</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -15, -10, -5<br/>
+<a href="#Output-24505281" onClick='toggleBox("Output-24505281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24505281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24505281">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 317]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 317]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 317]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 317]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 1, -1, 2<br/>
+<a href="#Output-27262389" onClick='toggleBox("Output-27262389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27262389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27262389">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 0, 9, -9<br/>
+<a href="#Output-20344204" onClick='toggleBox("Output-20344204", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20344204" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20344204">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 320]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -5, 5, -10<br/>
+<a href="#Output-7807751" onClick='toggleBox("Output-7807751", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7807751" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7807751">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 1, 1, 0<br/>
+<a href="#Output-23950550" onClick='toggleBox("Output-23950550", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23950550" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23950550">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 322]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 322]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 322]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 322]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 18, 0, 18<br/>
+<a href="#Output-4963695" onClick='toggleBox("Output-4963695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4963695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4963695">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 321]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 12, 1, 11<br/>
+<a href="#Output-20310866" onClick='toggleBox("Output-20310866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20310866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20310866">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 1, -1, 2<br/>
+<a href="#Output-27289438" onClick='toggleBox("Output-27289438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27289438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27289438">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 318]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -5, 5, -10<br/>
+<a href="#Output-17430002" onClick='toggleBox("Output-17430002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17430002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17430002">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 12, 1, 11<br/>
+<a href="#Output-22433725" onClick='toggleBox("Output-22433725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22433725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22433725">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 315]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 315]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 315]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 315]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 0, 4, -4<br/>
+<a href="#Output-4760401" onClick='toggleBox("Output-4760401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4760401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4760401">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -1, -1, 0<br/>
+<a href="#Output-20642870" onClick='toggleBox("Output-20642870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20642870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20642870">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -3<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -3<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -3<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -3<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 3 ms] - [Thread ID: 323]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 3 ms] - [Thread ID: 323]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 3 ms] - [Thread ID: 323]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 3 ms] - [Thread ID: 323]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -15, -10, -5<br/>
+<a href="#Output-10909945" onClick='toggleBox("Output-10909945", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10909945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10909945">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 325]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 325]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 325]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 325]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 17, 0, 17<br/>
+<a href="#Output-21637436" onClick='toggleBox("Output-21637436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21637436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21637436">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 319]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 1, 1, 0<br/>
+<a href="#Output-747447" onClick='toggleBox("Output-747447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747447">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 320]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -1, -1, 0<br/>
+<a href="#Output-17458668" onClick='toggleBox("Output-17458668", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17458668" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17458668">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: 4611686018427387903, -4611686018427387904, 9223372036854775807<br/>
+<a href="#Output-7618110" onClick='toggleBox("Output-7618110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7618110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7618110">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 321]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 321]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSub.testSubPassLong()'><b>testSubPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSub<br>Parameters: -4611686018427387904, 4611686018427387904, -9223372036854775808<br/>
+<a href="#Output-581993" onClick='toggleBox("Output-581993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-581993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-581993">
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSub.testSubPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSub][Method: testSubPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 324]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSub@8e8621</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, 1, 2<br/>
+<a href="#Output-19446550" onClick='toggleBox("Output-19446550", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19446550" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19446550">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 0, 9, 9<br/>
+<a href="#Output-27270169" onClick='toggleBox("Output-27270169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27270169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27270169">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 307]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, -1, 0<br/>
+<a href="#Output-17563692" onClick='toggleBox("Output-17563692", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17563692" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17563692">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, -17, -16<br/>
+<a href="#Output-17171726" onClick='toggleBox("Output-17171726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17171726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17171726">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, 1, 2<br/>
+<a href="#Output-29773354" onClick='toggleBox("Output-29773354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29773354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29773354">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 0, 2, 2<br/>
+<a href="#Output-27230453" onClick='toggleBox("Output-27230453", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27230453" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27230453">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 15, 0, 15<br/>
+<a href="#Output-20548982" onClick='toggleBox("Output-20548982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20548982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20548982">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 311]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, -1, 0<br/>
+<a href="#Output-20158037" onClick='toggleBox("Output-20158037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20158037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20158037">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 309]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -5, 5, 0<br/>
+<a href="#Output-18299755" onClick='toggleBox("Output-18299755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18299755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18299755">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 305]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 1, -17, -16<br/>
+<a href="#Output-10294818" onClick='toggleBox("Output-10294818", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10294818" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10294818">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 307]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -43, 13, -30<br/>
+<a href="#Output-3870517" onClick='toggleBox("Output-3870517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3870517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3870517">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 311]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -43, 13, -30<br/>
+<a href="#Output-27822459" onClick='toggleBox("Output-27822459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27822459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27822459">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 312]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 312]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 312]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 312]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -1, -1, -2<br/>
+<a href="#Output-4026478" onClick='toggleBox("Output-4026478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4026478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4026478">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 314]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 314]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 314]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 314]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -5, 5, 0<br/>
+<a href="#Output-17710750" onClick='toggleBox("Output-17710750", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17710750" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17710750">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 310]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 310]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 310]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 310]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 18, 0, 18<br/>
+<a href="#Output-10149877" onClick='toggleBox("Output-10149877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10149877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10149877">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 308]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 308]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 308]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 308]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -1, -1, -2<br/>
+<a href="#Output-18817450" onClick='toggleBox("Output-18817450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18817450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18817450">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: -1<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 306]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 306]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 306]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 1 ms] - [Thread ID: 306]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 4611686018427387903, 4611686018427387904, 9223372036854775807<br/>
+<a href="#Output-1421613" onClick='toggleBox("Output-1421613", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1421613" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1421613">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 305]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -4611686018427387904, -4611686018427387904, -9223372036854775808<br/>
+<a href="#Output-3213847" onClick='toggleBox("Output-3213847", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3213847" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3213847">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: 9223372036854775807, -9223372036854775808, -1<br/>
+<a href="#Output-33152074" onClick='toggleBox("Output-33152074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33152074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33152074">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 313]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+<tr>
+<td title='com.epam.calculator.testCalculator.baseOperations.TestSum.testSumPassLong()'><b>testSumPassLong</b><br>Test class: com.epam.calculator.testCalculator.baseOperations.TestSum<br>Parameters: -9223372036854775808, 9223372036854775807, -1<br/>
+<a href="#Output-5760865" onClick='toggleBox("Output-5760865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5760865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5760865">
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br>Completed executing method: TestSum.testSumPassLong Elapsed time: 0<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</br> [Test: TestNG Smoke Group][Class: com.epam.calculator.testCalculator.baseOperations.TestSum][Method: testSumPassLong][#Parameters: 3] - State [1] - [Time: 0 ms] - [Thread ID: 309]
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.epam.calculator.testCalculator.baseOperations.TestSum@344ad3</td></tr>
+</table><p>
+</body>
+</html>

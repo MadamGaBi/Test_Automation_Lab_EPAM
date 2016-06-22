@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<test name = "testMultExceptionIsThrown">
+    <!--bounds check-->
+    <!--Long.MIN_VALUE = -9223372036854775808, Long.MAX_VALUE = 9223372036854775807-->
+    <data>
+    <number1>4611686018427387904</number1>
+    <number2>2</number2>
+</data>
+    <data>
+        <number1>-4611686018427387905</number1>
+        <number2>2</number2>
+    </data>
+    <data>
+        <number1>-4611686018427387904</number1>
+        <number2>-2</number2>
+    </data>
+    <data>
+        <number1>4611686018427387905</number1>
+        <number2>-2</number2>
+    </data>
+</test>

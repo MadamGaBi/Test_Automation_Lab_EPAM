@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestClass" duration-ms="24" started-at="2016-05-18T19:51:24Z" finished-at="2016-05-18T19:51:24Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24" started-at="2016-05-18T19:51:24Z" finished-at="2016-05-18T19:51:24Z">
+      <class name="TestClass">
+        <test-method status="PASS" signature="testCollectionWithTheSameValues()[pri:0, instance:TestClass@1417077]" name="testCollectionWithTheSameValues" duration-ms="11" started-at="2016-05-18T22:51:24Z" finished-at="2016-05-18T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectionWithTheSameValues -->
+        <test-method status="PASS" signature="testEmptyCollection()[pri:0, instance:TestClass@1417077]" name="testEmptyCollection" duration-ms="0" started-at="2016-05-18T22:51:24Z" finished-at="2016-05-18T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCollection -->
+        <test-method status="PASS" signature="testNullCollection()[pri:0, instance:TestClass@1417077]" name="testNullCollection" duration-ms="0" started-at="2016-05-18T22:51:24Z" finished-at="2016-05-18T22:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullCollection -->
+      </class> <!-- TestClass -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestClass -->
+</testng-results>
